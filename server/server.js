@@ -6,6 +6,7 @@ const registrRouter = require('./routes/register');
 const movieRouter = require('./routes/movie');
 const screeningRouter = require('./routes/screening');
 const screeningRoomRouter = require('./routes/screeningRoom');
+const path = require('path');
 
 const app = express();
 require('./prod')(app);
